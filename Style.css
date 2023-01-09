@@ -1,0 +1,49 @@
+.card {
+    height: 310px;
+    width: 500px;
+    background-image: linear-gradient(rgba(255, 61, 61, 1), rgba(255, 61, 61, 0.8));
+    border-radius: 20px;
+    color: white;
+    margin: 20px;
+    font-size: 16;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 20px #707070;
+}
+
+.card-bovenkant {
+    display: inline-block;
+    width: 500px;
+    height: 155px;
+}
+
+.card-onderkant {
+    display: inline-block;
+    width: 500px;
+    height: 155px;
+}
+
+.card-chip {
+    float: left;
+    margin: 20px;
+}
+
+.card-naam {
+    float: right;
+    margin: 20px;
+    position: relative;
+    font-size: 28px;
+    font-weight: 550;
+}
+
+.card-code {
+    margin: 50px;
+    font-size: 28px;
+    font-weight: 550;
+}
+
+.card-holder {
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
